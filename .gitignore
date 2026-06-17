@@ -1,0 +1,17 @@
+# Build artifacts
+flogs
+*.exe
+*.test
+*.out
+
+# Coverage and profiling
+coverage.out
+*.prof
+
+# Generated filtered log files
+filtered-*
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
