@@ -35,7 +35,7 @@ Input should be newline-delimited JSON, with one log record per line. Lines that
 
 Example:
 
-```json
+```json lines
 {"timestamp":"2026-06-17T12:00:00Z","level":"ERROR","message":"request failed","request_id":"abc"}
 {"timestamp":"2026-06-17T12:00:01Z","level":"INFO","message":"request completed"}
 ```
@@ -47,8 +47,3 @@ For an input file named `errors.jsonl`, the output file is written as:
 ```text
 filtered-errors.jsonl
 ```
-
-The output contains the original unmodified JSON lines for each unique error record.
-# flogs
-# flogs
-# flogs
