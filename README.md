@@ -1,6 +1,6 @@
-# flogs
+# flog
 
-`flogs` filters newline-delimited JSON log files down to unique error records.
+`flog` filters newline-delimited JSON log files down to unique error records.
 
 The program reads a log file, keeps only records where `level` is `ERROR`, normalizes volatile values such as timestamps, IDs, durations, stack traces, request/session fields, and object addresses, then writes the first occurrence of each unique normalized error to a sibling output file named `filtered-<input-file>`.
 
