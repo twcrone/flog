@@ -20,7 +20,7 @@ Build and run:
 
 ```sh
 go build -o flogs .
-./flogs /path/to/logs.jsonl
+./flog /path/to/logs.jsonl
 ```
 
 Example output:
